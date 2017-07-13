@@ -1,0 +1,69 @@
+/* Sets the width of the whole header to be the 100% of the available width. */
+header {
+  width: 100%;
+}
+
+/* Sets the logo to be left of the text and the height to be maximum of 100 pixels */
+.logo {
+  float: left;
+  max-height: 100px;
+}
+
+/* If the screen's width is smaller than 480 pixels then the height is
+    50 pixels max and the logo is set to the right side of the screen. */
+@media screen and (max-width: 768px) {
+  .logo {
+    float: right;
+     max-height: 50px;
+  }
+}
+
+/* Styling the header text. */
+.heading_text {
+    width: 100%;
+    float: right;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Verdana;
+    color: #2d3c49;
+}
+
+/* Sets the boldness letters of header with my name to be lighter. */
+.heading_text h1 {
+    font-weight: 100;
+}
+
+/* Sets the boldness letters of header with my personal message to be lighter. */
+.heading_text h4 {
+    font-weight: 300;
+}
+
+/* Sets up the styles for the divider. */
+.divider {
+    width: 100%;
+    height: 5px;
+    background-color: #7d97ad;
+    display: block;
+    margin: 0.5em auto;
+}
+
+/* Sets the width of the main image to be the 100% of the available width. */
+.main_image {
+    width: 100%;
+}
+
+/* Styles the Featured Projects header. */
+.feature_text {
+    width: 100%;
+    text-align: left;
+    color: #7d97ad;
+    font-family: Verdana;
+    font-weight: 300;
+}
+
+/* Styles the footer. */
+.footer_text {
+  width: 100%;
+  text-align: center;
+  color: #2d3c49;
+}
